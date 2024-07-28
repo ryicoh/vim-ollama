@@ -30,10 +30,8 @@ Plug 'ryicoh/vim-ollama'
  system administrators for editing and manipulating code, scripts, and text files.
 ```
 
-In the insert mode, the output is written to the current buffer.
+In insert mode, the output is written to the current buffer.
 
 ```vim
 <C-r>=ollama#run("Explain about Ollama")
 ```
-
-# vim-ollama
