@@ -35,3 +35,11 @@ In insert mode, the output is written to the current buffer.
 ```vim
 <C-r>=ollama#run("Explain about Ollama")
 ```
+
+# Configuration
+
+Change a model.
+
+```vim
+let g:ollama_model = "mistral:7b"
+```
